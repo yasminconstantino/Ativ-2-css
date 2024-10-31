@@ -1,0 +1,19 @@
+/* 14) Define uma borda para elementos <img> com um atributo title que contém a palavra "carta" */
+img[title*="carta"] {
+    border: 2px solid red;
+}
+
+/* 15) Define uma borda para elementos <img> com um atributo title que começa com "sequencia" */
+img[title^="sequencia"] {
+    border: 2px solid green;
+}
+
+/* 16) Define uma borda para elementos <img> com um atributo title que termina com "carta" */
+img[title$="carta"] {
+    border: 2px solid blue;
+}
+
+/* 17) Define uma borda para elementos <img> com um atributo title que contém o valor "flor" */
+img[title*="flor"] {
+    border: 2px solid purple;
+}

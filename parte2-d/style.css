@@ -1,0 +1,9 @@
+/* 12) Define a cor de fundo como rosa para os elementos <a> que possuem um atributo de target */
+a[target] {
+    background-color: pink;
+}
+
+/* 13) Define a cor de fundo como azul para os elementos <a> que possuem um atributo target com o valor "_blank" */
+a[target="_blank"] {
+    background-color: blue;
+}

@@ -1,0 +1,19 @@
+/* 1) Altera a cor de todos os elementos <p> descendentes de <div> para vermelho */
+div p {
+    color: red;
+}
+
+/* 2) Altera a cor de todos os elementos <p> que são filhos diretos de <div> para amarelo */
+div > p {
+    color: yellow;
+}
+
+/* 3) Altera a cor do primeiro elemento <p> logo após um <div> para verde */
+div + p {
+    color: green;
+}
+
+/* 4) Altera a cor dos elementos <p> que são irmãos de um <div> para roxo */
+div ~ p {
+    color: purple;
+}

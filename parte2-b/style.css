@@ -1,0 +1,19 @@
+/* 5) Define a cor de fundo para vermelho ao passar o mouse sobre um link */
+a:hover {
+    background-color: red;
+}
+
+/* 6) Define a cor de fundo para amarelo ao passar o mouse sobre elementos com a classe "master" */
+.master:hover {
+    background-color: yellow;
+}
+
+/* 7) Define a cor de fundo para laranja em qualquer elemento <p> que seja o primeiro filho de qualquer elemento */
+p:first-child {
+    background-color: orange;
+}
+
+/* 8) Define a cor de fundo para amarelo em qualquer elemento <input> que esteja em foco */
+input:focus {
+    background-color: yellow;
+}

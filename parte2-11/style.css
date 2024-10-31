@@ -1,0 +1,12 @@
+/* 11) Insere a imagem antes e depois de cada elemento <p> */
+p::before {
+    content: url('ghost.png');
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+p::after {
+    content: url('ghost.png');
+    margin-left: 8px;
+    vertical-align: middle;
+}

@@ -1,0 +1,9 @@
+/* 9) Define a cor de fundo azul para a primeira linha do parágrafo */
+p.intro::first-line {
+    background-color: blue;
+}
+
+/* 10) Define a cor de fundo verde para a primeira letra do elemento <p> */
+p.intro::first-letter {
+    background-color: green;
+}
